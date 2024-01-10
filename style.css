@@ -1,0 +1,268 @@
+*
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins' , sans-serif;
+}
+
+body
+{
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins' , sans-serif;
+
+}
+.buttons
+{
+    margin: 5% 45% 0%;
+    
+}
+.buttons button
+{
+  border-radius: 28px;
+  background-color: rgb(179, 142, 214);
+  padding: 9px 14px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.buttons button:hover
+{
+    background-color: antiquewhite;
+    color: blue;
+}
+
+.navbar
+{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    top: 0%;
+    width: 100%;
+    background-color: rgb(172, 117, 224);
+}
+
+.navbar ul
+{   
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    margin: 0px 70px;   
+}
+
+.navbar ul li 
+{
+    display: flex;
+    justify-content: center;
+    margin: 0px 30px;
+    font-size: 20px;
+}
+
+.navbar ul li a 
+{
+    text-decoration: none;
+    color: purple;
+}
+
+.navbar ul li a:hover 
+{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.home
+{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: -20px 100px -30px;
+    
+}
+.home > div
+{
+   width: 60%;
+}
+.leftSec
+{
+   font-size: 1.5rem;
+   
+}
+.rightSec img
+{
+    width: 117%;
+}
+.purple
+{
+    color: rgb(74, 0, 143);
+}
+.hey hr 
+{
+    border: 0;
+    background: #000000;
+    height: 3px;
+    margin: 40px 70px;
+}
+
+
+
+.education 
+{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 100px 70px 30px;
+}
+.education .hello
+{
+    font-size: 1.5rem;
+    margin: -35% 5% 0%;
+}
+
+.txtSec
+{
+   font-size: 1rem;
+   margin: -5% -15% 0;
+}
+.imgSec img
+{
+    width: 80%;
+    float: right;
+}
+.purple
+{
+    color: rgb(74, 0, 143);
+}
+.heyy hr 
+{
+    border: 0;
+    background: #000000;
+    height: 3px;
+    margin: 40px 70px;
+}
+
+.skills 
+{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 110px 80px 40px;
+}
+.skills .rSec
+{
+    font-size: 1.5rem;
+    margin: -35% 5% 8%;
+}
+
+.tSec
+{
+   font-size: 1rem;
+   margin: -5% -5% 10;
+}
+.purple
+{
+    color: rgb(74, 0, 143);
+}
+.gojo hr 
+{
+    border: 0;
+    background: #000000;
+    height: 3px;
+    margin: 40px 70px;
+}
+.projects 
+{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 190px 400px -10px;
+}
+.projects .rasengan 
+{
+    font-size: 1.5rem;
+    margin: -160% -40% 0%;
+}
+.projects .chidori 
+{
+    font-size: 1rem;
+    margin: -125% -60% 0%;
+}
+.card {
+    box-shadow: 0 8px 10px 0 rgba(255, 0, 0, 0.904);
+    transition: 0.3s;
+    width: 100%;
+    background-color: rgb(115, 65, 156);
+    margin: -5% -120% 10%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(139, 211, 7);
+  }
+  
+.container
+{
+    padding: 2px 16px;
+}
+.projects .itachi
+{
+    font-size: 1rem;
+    margin: 10% -5% 8%;
+    
+}
+
+  .geto hr 
+{
+    border: 0;
+    background: #000000;
+    height: 3px;
+    margin: 40px 70px;
+}
+
+.contact .madara
+{
+    font-size: 1.5rem;
+    margin: 3% 10% 5%;
+}
+
+.obito , select, textarea
+{
+    width: 80%;
+    padding: 12px;
+}
+
+.obito input[type=submit]
+{
+    color: blue;
+    margin: 5% 35% 0%;
+    border-radius: 28px;
+    background-color: rgb(179, 142, 214);
+    padding: 9px 14px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.obito input[type=submit]:hover
+{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.obito input[type=text]
+{
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 80%;
+
+}
+.obito
+{
+    margin: 3% 20% 5%;
+    color: black;
+    font-weight: bold;
+}
+
